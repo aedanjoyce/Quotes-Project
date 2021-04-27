@@ -174,10 +174,8 @@
 		8F087B0C2631057900E78B3D /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				8F087AFE2630FD1700E78B3D /* HomeViewController.swift */,
-				8F8CF2DD2637467C00784933 /* HomeViewResultsController.swift */,
-				8FBF2933263212F900CB927B /* HomeViewCell.swift */,
-				8FA48F0A263652D1009DBB48 /* EmptyStateCell.swift */,
+				8FC008C02638050E00A679DB /* Controller */,
+				8FC008C72638051500A679DB /* View */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -273,10 +271,8 @@
 		8F49DB15263601E2006C81F0 /* Quote View */ = {
 			isa = PBXGroup;
 			children = (
-				8F49DB0226324D0E006C81F0 /* QuoteController.swift */,
-				8F49DB0E26360139006C81F0 /* QuoteService.swift */,
-				8F49DAF8263241D7006C81F0 /* Quote.swift */,
-				8F49DB07263370C6006C81F0 /* QuoteReviewController.swift */,
+				8FC008D42638052B00A679DB /* Controller */,
+				8FC008D82638053200A679DB /* Model */,
 			);
 			path = "Quote View";
 			sourceTree = "<group>";
@@ -297,6 +293,42 @@
 			children = (
 				8FBF291A2631282200CB927B /* OnboardingService.swift */,
 				8FBF29242632115500CB927B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FC008C02638050E00A679DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F087AFE2630FD1700E78B3D /* HomeViewController.swift */,
+				8F8CF2DD2637467C00784933 /* HomeViewResultsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FC008C72638051500A679DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF2933263212F900CB927B /* HomeViewCell.swift */,
+				8FA48F0A263652D1009DBB48 /* EmptyStateCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FC008D42638052B00A679DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49DB0226324D0E006C81F0 /* QuoteController.swift */,
+				8F49DB07263370C6006C81F0 /* QuoteReviewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FC008D82638053200A679DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F49DB0E26360139006C81F0 /* QuoteService.swift */,
+				8F49DAF8263241D7006C81F0 /* Quote.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
